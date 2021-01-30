@@ -6,9 +6,11 @@ Genetic algorithm that finds the shortest path between two points on a grid (wit
 
 **Biological Computation course at The Open University of Israel**
 
-I used genetic algorithm to find the shorttest path between two points in a grid (whose size is not constant).
+I used **genetic algorithm** to find the shorttest path between two points in a grid (whose size is not constant).
 The program receives as an argument the size of the grid which consists the world, creates random start and finish points and uses genetic algorithm to find the shorttest path.
-The program automatically decides the paramaters of the genetic algorithm (populaion size, mutation and mutation probability, size of the elite group and the parents group (in percentages). But those parameters can be passed to the program:
+The program automatically decides the paramaters of the genetic algorithm (populaion size, mutation and mutation probability, size of the elite group and the parents group (in percentages).
+
+The algorithm also receives optinal parametes such as size of the world, population size, mutation poribability etc. Also one can pass the number of obstacles to be placed on the grid randomly.The algorithm builds a path that avoids bumping into obstacles.
 
 ```
 usage: main.py [-h] [-s SIZE] [-o OBSTACLES] [-p POPULATION] [-m MUTATION]
@@ -37,7 +39,7 @@ optional arguments:
                         Default=1
 ```
 
-The algorithm also receives number of obstacles that can be placed on the grid, and places them randomly on the grid.The algorithm builds a path that avoids bumping into obstacles.
+
 
 While running the program prints helful messages that help track its progress in every generation.
 ```
