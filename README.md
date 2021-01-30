@@ -1,7 +1,9 @@
 Genetic algorithm that finds the shortest path between two points on a grid (with obstacles).
 ---------------------------------------------------------------------------------------------
 The program implements the genetic algorithm entirely (without using external modules).
+
 Python modules: tkinter, matplotlib, arg, numpy.
+
 "Biological Computation" course at The Open University of Israel.
 
 I used genetic algorithm to find the shorttest path between two points in a grid (whose size is not constant).
