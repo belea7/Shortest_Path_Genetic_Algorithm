@@ -8,7 +8,35 @@ Python modules: tkinter, matplotlib, arg, numpy.
 
 I used genetic algorithm to find the shorttest path between two points in a grid (whose size is not constant).
 The program receives as an argument the size of the grid which consists the world, creates random start and finish points and uses genetic algorithm to find the shorttest path.
-The program automatically decides the paramaters of the genetic algorithm (populaion size, mutation and mutation probability, size of the elite group and the parents group (in percentages).
+The program automatically decides the paramaters of the genetic algorithm (populaion size, mutation and mutation probability, size of the elite group and the parents group (in percentages). But those parameters can be passed to the program:
+
+```
+usage: main.py [-h] [-s SIZE] [-o OBSTACLES] [-p POPULATION] [-m MUTATION]
+               [-e ELITE] [-pp PARENTS]
+
+Create a grid world and find optimal path between two points.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s SIZE, --size SIZE  Size of the world. Can be a list separated by commas.
+                        Default=50
+  -o OBSTACLES, --obstacles OBSTACLES
+                        Number of obstacles. Can be a list separated by
+                        commas. Default=0
+  -p POPULATION, --population POPULATION
+                        Size of the population. Can be a list separated by
+                        commas. Default=world size * 1.5
+  -m MUTATION, --mutation MUTATION
+                        Mutation probability. Can be a list separated by
+                        commas. Default=0.4
+  -e ELITE, --elite ELITE
+                        Elite probability. Can be a list separated by commas.
+                        Default=0.05
+  -pp PARENTS, --parents PARENTS
+                        Parents percentage. Can be a list separated by commas.
+                        Default=1
+```
+
 The algorithm also receives number of obstacles that can be placed on the grid, and places them randomly on the grid.The algorithm builds a path that avoids bumping into obstacles.
 
 While running the program prints helful messages that help track its progress in every generation.
