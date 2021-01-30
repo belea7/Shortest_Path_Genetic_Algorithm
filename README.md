@@ -56,4 +56,8 @@ Found best path from (20, 39) to (1, 49)
 
 When the algorithm finishes running it prints the view of the world, including the starting and points, the path chosen and the obstacles (using tkinter module).
 
-After exiting the tkinter window, the program displays statistics.
+![alt text](https://github.com/bealea7/Shortest_Path_Genetic_Algorithm/blob/main/pictures/gird_displau.PNG)
+
+After exiting the tkinter window, the program displays statistics: the min, max and avg fintess values of the population in every generation.
+
+![alt text](https://github.com/bealea7/Shortest_Path_Genetic_Algorithm/blob/main/pictures/Statistics.PNG)
