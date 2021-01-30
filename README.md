@@ -14,7 +14,10 @@ The algorithm also receives number of obstacles that can be placed on the grid, 
 While running the program prints helful messages that help track its progress in every generation and finally prints the path chosen by the algorithm.
 
 ```
-Generation: 110  Best path found: Path: Down , Right , Right , Down , Right , Right , Down , Down , Down , Right , Down , Down , Down , Right , Down , Down , Down , Down , Down , Down , Down , Right , Down , Right , Right , Down , Right , Down , Down , Up , Right , Down , Down , Down , Up , Down , Up , Right , Down , Left , Right , Down , Left , Left , Right , Right , Down , Right , Down , Down , Down , Down , Down , Right , Right , Down , Down , Down , Right , Left , Down , Right , Up , Down , Down , Right , Left , Up , Down , Down , Down , Down , Left , Right , Up , Down , Down , Right , Down , Left , Down , Left , Right , Up , Right , Right , Left , Right , Right , Up , Down , Down , Up , Up , Left , Down , Down , Right , Right , Up  Fitness: 29	  PATH FOUND.
+Generation: 110 
+Best path found: Path: Down , Right , Right , Down , Right , Right , Down , Down , Down , Right , Down , Down , Down , Right , Down , Down , Down , Down , Down , Down , Down , Right , Down , Right , Right , Down , Right , Down , Down , Up , Right , Down , Down , Down , Up , Down , Up , Right , Down , Left , Right , Down , Left , Left , Right , Right , Down , Right , Down , Down , Down , Down , Down , Right , Right , Down , Down , Down , Right , Left , Down , Right , Up , Down , Down , Right , Left , Up , Down , Down , Down , Down , Left , Right , Up , Down , Down , Right , Down , Left , Down , Left , Right , Up , Right , Right , Left , Right , Right , Up , Down , Down , Up , Up , Left , Down , Down , Right , Right , Up 
+Fitness: 29
+PATH FOUND.
 
 ```
 
