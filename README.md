@@ -19,7 +19,7 @@ Fitness: 29
 PATH FOUND.
 ```
 
-When the algorithm stops it prints the path chosen by the algorithm.
+When the algorithm stops it prints the path chosen by the algorithm. If the algorithm fails to find a path between the points that doesn't fo through obstales - it prints an appropriate message.
 ```
 Found best path from (20, 39) to (1, 49)
 (Manhattan Distance: 29)
